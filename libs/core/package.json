@@ -1,8 +1,28 @@
 {
-  "name": "@locl/core",
-  "version": "1.0.1",
+  "name": "@locl-fork/core",
+  "version": "1.0.2",
   "license": "AGPL-3.0-or-later",
   "peerDependencies": {
     "@angular/core": "^11.2.6"
-  }
+  },
+  "description": "<p align=\"center\"><img src=\"https://raw.githubusercontent.com/loclapp/locl/master/apps/web/src/assets/img/locl-social.png\" width=\"450\"></p>",
+  "main": "index.js",
+  "dependencies": {
+    "rxjs": "^6.6.6",
+    "zone.js": "^0.11.4",
+    "tslib": "^2.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vpetrusevici/locl.git"
+  },
+  "author": "locl",
+  "bugs": {
+    "url": "https://github.com/vpetrusevici/locl/issues"
+  },
+  "homepage": "https://github.com/vpetrusevici/locl#readme"
 }
