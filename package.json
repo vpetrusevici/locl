@@ -60,7 +60,6 @@
     "locl-extract": "locl extract -s=dist/apps/demo/*.js -f=json -o=dist/i18n/",
     "locl-convert": "locl convert -s=dist/i18n/*.xlf -f=json -o=dist/i18n/converted.json"
   },
-  "private": true,
   "dependencies": {
     "@angular/animations": "11.2.6",
     "@angular/common": "11.2.6",
