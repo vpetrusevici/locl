@@ -1,5 +1,5 @@
 {
-  "npmScope": "locl",
+  "npmScope": "locl-fork",
   "implicitDependencies": {
     "angular.json": "*",
     "package.json": "*",
