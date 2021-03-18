@@ -33,7 +33,7 @@ export function parseTranslations(
  * @param async defines if the XHR request should be async (default) or not
  */
 export function getTranslations(
-  url,
+  url: string,
   method: 'GET' | 'POST' = 'GET',
   headers: { [key: string]: string } = {},
   async = true

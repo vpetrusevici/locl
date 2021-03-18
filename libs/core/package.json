@@ -1,18 +1,17 @@
 {
   "name": "@locl-fork/core",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "license": "AGPL-3.0-or-later",
   "peerDependencies": {
-    "@angular/core": "^11.2.6"
+    "@angular/core": "^11.2.6",
+    "rxjs": "^6.6.6",
+    "zone.js": "^0.11.4"
   },
   "description": "<p align=\"center\"><img src=\"https://raw.githubusercontent.com/loclapp/locl/master/apps/web/src/assets/img/locl-social.png\" width=\"450\"></p>",
   "main": "index.js",
-  "dependencies": {
-    "rxjs": "^6.6.6",
-    "zone.js": "^0.11.4",
+  "devDependencies": {
     "tslib": "^2.1.0"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
